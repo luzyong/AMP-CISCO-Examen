@@ -1,5 +1,6 @@
-,File Name,Disposition,Type Event,Severity,SHA256,Hostname
-0,AcroRd32.exe,Clean,Vulnerable Application Detected,Low,6613c1ccdea6a6831b0ad9f3d9ff5327cee22b2a8b1a4082db83edf077ed3568,BEDACOMDELL01
-1,AcroRd32.exe,Clean,Vulnerable Application Detected,Low,6613c1ccdea6a6831b0ad9f3d9ff5327cee22b2a8b1a4082db83edf077ed3568,BEDACOMDELL01
-2,AcroRd32.exe,Clean,Vulnerable Application Detected,Low,6613c1ccdea6a6831b0ad9f3d9ff5327cee22b2a8b1a4082db83edf077ed3568,BEDACOMDELL01
-3,AcroRd32.exe,Clean,Vulnerable Application Detected,Low,6613c1ccdea6a6831b0ad9f3d9ff5327cee22b2a8b1a4082db83edf077ed3568,BEDACOMDELL01
+,File Name,Detection,Disposition,Type Event,Severity,SHA256,Hostname,File path
+0,rundll32.exe,,Clean,Cloud IOC,Critical,5ad3c37e6f2b9db3ee8b5aeedc474645de90c66e3d95f8620c48102f1eba4124,Demo_AMP_Threat_Audit,/C:/Windows/system32/rundll32.exe
+1,rundll32.exe,,Clean,Cloud IOC,High,5ad3c37e6f2b9db3ee8b5aeedc474645de90c66e3d95f8620c48102f1eba4124,Demo_AMP_Threat_Audit,/C:/Windows/system32/rundll32.exe
+2,Accessed URL matches characteristics of several malware families.,,Clean,Cloud IOC,High,72c027273297ccf2f33f5b4c5f5bce3eecc69e5f78b6bbc1dec9e58780a6fd02,Demo_CryptoWall,http://flashtamp.info/datas/gate.php
+3,yuyfhonu.exe,,Unknown,Cloud IOC,Critical,6b7d5fdf4b9d42a985cf861c5ef28f5fa914b418c22e4bf5b56bac12251bcd6c,Demo_Qakbot_1,/C:/Users/johndoe/AppData/Roaming/Microsoft/Yuyfhonuu/yuyfhonu.exe
+4,cmd.exe,,Clean,Cloud IOC,Critical,17f746d82695fa9b35493b41859d39d786d32b23a9d2e00f4011dec7a02402ae,Demo_Qakbot_3,/C:/Windows/SysWOW64/cmd.exe
